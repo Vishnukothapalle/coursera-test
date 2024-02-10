@@ -1,0 +1,23 @@
+function jd(is)
+{
+   var name1=is
+    for(var i=0;i<name1.length;i++)
+    {
+        var firstletter = name1[i].charAt(0).toLowerCase();
+        if(firstletter === "j")
+        {
+        console.log("Good bye "+name1);
+        break;
+        }
+        else{
+            console.log("Hello "+name1);
+            break;
+        }
+    }
+}
+jd("Jhon");
+jd("vishnu");
+jd("raghava");
+jd("Jahnavi");
+jd("manoj")
+jf("Rajeshwari");
